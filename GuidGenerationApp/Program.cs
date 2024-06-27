@@ -7,8 +7,7 @@ namespace GuidGenerationApp
     {
        static void Main(string[] args)
        {
-            Console.WriteLine("Welcome to the project GUID Generator!!!");
-            Console.WriteLine("Each time you type 'yes' or 'y', a new GUID is generated and copied to your clipboard\n");
+            ShowWelcomeMessage();
             
             string yesOrNo = "";
             do 
@@ -28,9 +27,11 @@ namespace GuidGenerationApp
             Console.WriteLine("Thank you for using our program");
        }
 
-
-        
-
+        static void ShowWelcomeMessage() 
+        {
+            Console.WriteLine("Welcome to the project GUID Generator!!!");
+            Console.WriteLine("Each time you type 'yes' or 'y', a new GUID is generated and copied to your clipboard\n");
+        }
 
     }
 }
