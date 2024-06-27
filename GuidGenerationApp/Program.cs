@@ -32,6 +32,5 @@ namespace GuidGenerationApp
             Console.WriteLine("Welcome to the project GUID Generator!!!");
             Console.WriteLine("Each time you type 'yes' or 'y', a new GUID is generated and copied to your clipboard\n");
         }
-
     }
 }
