@@ -25,6 +25,7 @@ namespace GuidGenerationApp
             } while (yesOrNo.ToLower() == "yes" | yesOrNo.ToLower() == "y");
 
             Console.WriteLine("Thank you for using our program");
+            Console.ReadKey();
        }
 
         static void ShowWelcomeMessage() 
